@@ -1,3 +1,5 @@
+# python3
+# import module pyserial twitter
 from twitter import *
 import serial
 import time
