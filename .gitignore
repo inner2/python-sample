@@ -1,4 +1,2 @@
-markdown_sample/*.html
 .DS_Store
-*.db
-*.idea
+python3/markdown_sample/*.html

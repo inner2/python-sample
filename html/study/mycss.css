@@ -1,0 +1,38 @@
+/* mycss.css */
+
+html {
+    background-image: url('image1.png')
+}
+
+#container {
+    width: 600px;
+    margin: 0 auto;
+}
+
+#header {
+    margin-bottom: 15px;
+    background-color: blue;
+}
+
+#manu {
+    margin-bottom: 15px;
+    background-color: skyblue;
+}
+
+#main {
+    overflow: hidden;
+    margin-bottom: 15px;
+    background-color: green;
+}
+
+#contents {
+    background-color: blue;
+}
+
+#sidebar {
+    background-color: red;
+}
+
+#footer {
+    background-color: violet;
+}
