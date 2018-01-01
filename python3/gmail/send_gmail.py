@@ -9,8 +9,8 @@ from email.mime.text import MIMEText
 if __name__ == '__main__':
 
     msg = MIMEText('hello world!')
-    me = 'penpenfromscratch@gmail.com'
-    you = 'inner_daha24@ezweb.ne.jp'
+    me = 'hogehoge@gmail.com'
+    you = 'hogehoge@hogehoge.com'
 
     # me == the sender's email address
     # you == the recipient's email address
@@ -23,6 +23,6 @@ if __name__ == '__main__':
     s.ehlo()
     s.starttls()
     s.ehlo()
-    s.login(me, 'raitoninngu')
+    s.login(me, 'path')
     s.send_message(msg)
     s.close()
